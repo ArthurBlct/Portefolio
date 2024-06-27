@@ -1,0 +1,229 @@
+body{
+    margin: 16rem;
+    margin-top: 6rem;
+    
+}
+
+#ESC, #process, .centered{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#stage-title, .centered{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* logo SNCF Reseau (stage Juin-Juillet) */
+#logo{
+    margin-left: 4rem;
+}
+
+/* une div */
+div{
+    /* border: dotted 2px red; */
+
+    /* background-color: rgba(255, 0, 0, 0.135); */
+    margin: 1rem;
+}
+
+/* une div dans une div */
+div div{
+    /* border: dotted 2px rgb(17, 0, 255); */
+
+    /* background-color: rgba(38, 0, 255, 0.135); */
+    margin: 1rem;
+}
+
+/* une div dans une div dans une div */
+div div div{
+    /* border: dotted 2px rgb(187, 0, 255); */
+
+    /* background: linear-gradient(90deg, rgba(130,28,114,1) 0%, rgba(230,23,33,1) 100%); */
+    /* color: white; */
+    /* background-color: rgba(255, 251, 0, 0.135); */
+    margin: 1rem;
+}
+
+section{
+    /* border: dotted 2px green; */
+
+    /* background-color: rgba(0, 128, 0, 0.135); */
+}
+
+.section-title{
+    color: steelblue;
+    display: flex;
+    justify-content: center;
+}
+
+#contacts{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+}
+
+#planning-img{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+}
+
+nav a, nav a:visited{
+    text-decoration: none;
+    padding: 1.5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    color: black;
+}
+
+nav a:hover{
+    background-color: gainsboro;
+    color: black;
+    transition: ease-in-out 0.2s;
+}
+
+nav{
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: start;
+    position: fixed;
+    /* background-color: white; */
+    background-color: rgb(231, 231, 231);
+    /* background-color: rgba(255, 255, 255, 0.507); */
+    font-size: 2rem;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    /* padding: 1.5rem; */
+    /* position: fixed */
+
+    /* background: linear-gradient(90deg, rgba(130,28,114,1) 0%, rgba(230,23,33,1) 100%);
+    color: white; */
+
+    z-index: 9;
+}
+
+nav hr{
+    color: red;
+    border: 3px;
+    /* position: absolute;
+    bottom: 300px;
+    z-index: 3; */
+}
+
+a:visited{
+    text-decoration: none;
+    color: steelblue
+}
+
+a:hover{
+    color: steelblue;
+}
+
+#portail{
+    display: flex;   
+}
+
+#portail-tt{
+    display: flex;
+    justify-content: space-around; 
+}
+
+.portail-desc{
+    display: flex;
+    justify-content: space-evenly; 
+}
+
+/* #portail-desc-1{
+    position: relative;
+    right: 175px
+}
+
+#portail-desc-2{
+    position: relative;
+    right: 80px
+} */
+
+#merci{
+   font-size: larger; 
+}
+
+#mercii{
+    /* border:solid 3px goldenrod; */
+    padding: 0.5rem;
+    /* margin-left: 0; */
+}
+
+#gradient{
+    margin-left: 0.4rem;
+    background: linear-gradient(90deg, rgba(130,28,114,1) 0%, rgba(230,23,33,1) 100%);
+    color: snow;
+}
+
+.RS{
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.R{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+#RSS{
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+div a{
+    color: steelblue;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#photo-a{
+    position: absolute;
+    right:4%;
+    top: 10rem;
+    border: solid gray 4px
+}
+
+img {
+    pointer-events: none;
+}
+
+.link-bck{
+    margin: 0;
+    text-decoration: none;
+}
+
+.link-bck:hover, .link-bck:visited{
+    color: black;
+}
+
+.hidden{
+    /* visibility: collapse; */
+    display: none;
+}
+
+.shown{
+    display: block;
+}
+
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+
+}
+
+#vis {
+    color: steelblue;
+}
