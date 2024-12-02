@@ -23,7 +23,7 @@ body{
 
 /* une div */
 div{
-    /* border: dotted 2px red; */
+    border: dotted 2px red;
 
     /* background-color: rgba(255, 0, 0, 0.135); */
     margin: 1rem;
@@ -31,7 +31,7 @@ div{
 
 /* une div dans une div */
 div div{
-    /* border: dotted 2px rgb(17, 0, 255); */
+    border: dotted 2px rgb(17, 0, 255);
 
     /* background-color: rgba(38, 0, 255, 0.135); */
     margin: 1rem;
@@ -39,7 +39,7 @@ div div{
 
 /* une div dans une div dans une div */
 div div div{
-    /* border: dotted 2px rgb(187, 0, 255); */
+    border: dotted 2px rgb(187, 0, 255);
 
     /* background: linear-gradient(90deg, rgba(130,28,114,1) 0%, rgba(230,23,33,1) 100%); */
     /* color: white; */
@@ -48,7 +48,7 @@ div div div{
 }
 
 section{
-    /* border: dotted 2px green; */
+    border: dotted 2px green;
 
     /* background-color: rgba(0, 128, 0, 0.135); */
 }
