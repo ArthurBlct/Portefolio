@@ -23,7 +23,7 @@ body{
 
 /* une div */
 div{
-    border: dotted 2px red;
+    /* border: dotted 2px red; */
 
     /* background-color: rgba(255, 0, 0, 0.135); */
     margin: 1rem;
@@ -31,7 +31,7 @@ div{
 
 /* une div dans une div */
 div div{
-    border: dotted 2px rgb(17, 0, 255);
+    /* border: dotted 2px rgb(17, 0, 255); */
 
     /* background-color: rgba(38, 0, 255, 0.135); */
     margin: 1rem;
@@ -39,7 +39,7 @@ div div{
 
 /* une div dans une div dans une div */
 div div div{
-    border: dotted 2px rgb(187, 0, 255);
+    /* border: dotted 2px rgb(187, 0, 255); */
 
     /* background: linear-gradient(90deg, rgba(130,28,114,1) 0%, rgba(230,23,33,1) 100%); */
     /* color: white; */
@@ -47,11 +47,11 @@ div div div{
     margin: 1rem;
 }
 
-section{
-    border: dotted 2px green;
+/* section{ */
+    /* border: dotted 2px green; */
 
     /* background-color: rgba(0, 128, 0, 0.135); */
-}
+/* } */
 
 .section-title{
     color: steelblue;
@@ -108,13 +108,14 @@ nav{
     z-index: 9;
 }
 
-nav hr{
-    color: red;
-    border: 3px;
+/* nav hr{ */
+    /* ICI */
+    /* color: red; */
+    /* border: 3px; */
     /* position: absolute;
     bottom: 300px;
     z-index: 3; */
-}
+/* } */
 
 a:visited{
     text-decoration: none;
@@ -150,7 +151,7 @@ a:hover{
 } */
 
 #merci{
-   font-size: larger; 
+    font-size: larger; 
 }
 
 #mercii{
@@ -186,8 +187,8 @@ a:hover{
 
 div a{
     color: steelblue;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    /* margin-left: 0.5rem;
+    margin-right: 0.5rem; */
 }
 
 #photo-a{
@@ -226,4 +227,25 @@ img {
 
 #vis {
     color: steelblue;
+}
+
+.lkd-logo{
+    filter:saturate(0%)
+    grayscale(100%);
+    
+}
+
+.li{
+    margin-left: 4rem;
+}
+
+#cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card0{
+    width: 100px;
+    height: 100px;
+    background-color: red;
 }
