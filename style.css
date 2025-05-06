@@ -1,262 +1,156 @@
-body{
-    margin: 16rem;
-    margin-top: 6rem;
-    
-}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-#ESC, #process, .centered{
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-}
+body {
+    font-family: 'Open Sans', sans-serif;
+  }
 
-#stage-title, .centered{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+/* *{
+    margin: 0;
+    padding: 0;
+} */
 
-/* logo SNCF Reseau (stage Juin-Juillet) */
-#logo{
-    margin-left: 4rem;
-}
-
-/* une div */
-div{
-    /* border: dotted 2px red; */
-
-    /* background-color: rgba(255, 0, 0, 0.135); */
-    margin: 1rem;
-}
-
-/* une div dans une div */
-div div{
-    /* border: dotted 2px rgb(17, 0, 255); */
-
-    /* background-color: rgba(38, 0, 255, 0.135); */
-    margin: 1rem;
-}
-
-/* une div dans une div dans une div */
-div div div{
-    /* border: dotted 2px rgb(187, 0, 255); */
-
-    /* background: linear-gradient(90deg, rgba(130,28,114,1) 0%, rgba(230,23,33,1) 100%); */
-    /* color: white; */
-    /* background-color: rgba(255, 251, 0, 0.135); */
-    margin: 1rem;
-}
-
-/* section{ */
-    /* border: dotted 2px green; */
-
-    /* background-color: rgba(0, 128, 0, 0.135); */
-/* } */
-
-.section-title{
-    color: steelblue;
+.center{
     display: flex;
     justify-content: center;
+}
+
+nav>a{
     font-size: xx-large;
-    padding: 6rem;
-}
-
-#contacts{
-    display: flex;
-    justify-content: center;
-    flex-direction:column;
-}
-
-#planning-img{
-    display: flex;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0);
-    border: 0px;
-}
-
-nav a, nav a:visited{
-    text-decoration: none;
-    padding: 1.5rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    color: black;
-}
-
-nav a:hover{
-    background-color: gainsboro;
-    color: black;
-    transition: ease-in-out 0.2s;
 }
 
 nav{
+/* border: 2px, solid, red; */
+    background-color: lightgray;
+    width: 100vw;
     display: flex;
-    /* justify-content: space-around; */
-    justify-content: start;
+    justify-content: space-evenly;
+    justify-self: center;
+    align-items: center;
+    height: 6rem;
     position: fixed;
-    /* background-color: white; */
-    background-color: rgb(231, 231, 231);
-    /* background-color: rgba(255, 255, 255, 0.507); */
-    font-size: 2rem;
-    width: 100%;
-    left: 0;
-    right: 0;
     top: 0;
-    /* padding: 1.5rem; */
-    /* position: fixed */
-
-    /* background: linear-gradient(90deg, rgba(130,28,114,1) 0%, rgba(230,23,33,1) 100%);
-    color: white; */
-
-    z-index: 9;
+    left: 0;
+    z-index: 100;
 }
 
-/* nav hr{ */
-    /* ICI */
-    /* color: red; */
-    /* border: 3px; */
-    /* position: absolute;
-    bottom: 300px;
-    z-index: 3; */
-/* } */
+a:link, a:visited {
+    color: black;
+}
 
-a:visited{
+#contact{
+    position: relative;
+    bottom: 12rem
+}
+
+nav>a{
     text-decoration: none;
-    color: steelblue
 }
 
-a:hover{
-    color: steelblue;
+#intro>p{
+    padding: 1rem;
 }
 
-#portail{
-    display: flex;   
-}
-
-#portail-tt{
-    display: flex;
-    justify-content: space-around; 
-}
-
-.portail-desc{
-    display: flex;
-    justify-content: space-evenly; 
-}
-
-/* #portail-desc-1{
+section{
+    /* border: 1px solid black; */
+    /* background-color: lightgoldenrodyellow; */
+    height: 120vh;
+    margin: 1vw;
     position: relative;
-    right: 175px
-}
-
-#portail-desc-2{
-    position: relative;
-    right: 80px
-} */
-
-#merci{
-    font-size: larger; 
-}
-
-#mercii{
-    /* border:solid 3px goldenrod; */
-    padding: 0.5rem;
-    /* margin-left: 0; */
-}
-
-#gradient{
-    margin-left: 0.4rem;
-    background: linear-gradient(90deg, rgba(130,28,114,1) 0%, rgba(230,23,33,1) 100%);
-    color: snow;
-}
-
-.RS{
     display: flex;
     justify-content: center;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-bottom: 30vh;
+}
+
+div.container{
+    /* border: 1px solid black; */
+    /* background-color: lightgreen; */
+    background-color: white;
+    width: 80vw;
+    margin: 1vw;
+    position: absolute;
+    top: 8rem
+}
+
+#sio-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#accueil{
+    /* position: absolute;
+    top: 2rem; */
+    position: relative;
+    top: 4rem
+}
+
+#ancre-bts{
+    position: relative;
+    bottom: 10vh;
+    visibility: hidden;
+}
+
+.doc-card{
+    /* background-color: rgb(228, 180, 238); */
+    background-color: white;
+    margin: 1rem;
+    width: 12vw;
+    height: 15vw;
+    border: 2px solid black;
+    position: relative;
+    bottom: 0;
+    transition: bottom 0.2s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#doc-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.doc-card:hover{
+    /* width: 13vw;
+    height: 16vw; */
+    bottom: 0.5rem;
+}
+
+.info{
+    position: absolute;
+    right: 0;
+    padding: 2%;
+    visibility: hidden;
+}
+
+.card-title{
+    position: absolute;
+    bottom: 5%;
+    font-weight: bolder;
+}
+
+img {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+  }
+
+/* .doc-card>img.card-icon{
+    position: absolute;
+    top: 20%;
+} */
+
+.img-link{
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .R{
     display: flex;
     justify-content: center;
-    
-    
-}
-
-#RSS{
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-}
-
-div a{
-    color: steelblue;
-    /* margin-left: 0.5rem;
-    margin-right: 0.5rem; */
-}
-
-#photo-a{
-    position: absolute;
-    right:4%;
-    top: 10rem;
-    border: solid gray 4px
-}
-
-img {
-    pointer-events: none;
-}
-
-.link-bck{
-    margin: 0;
-    text-decoration: none;
-}
-
-.link-bck:hover, .link-bck:visited{
-    color: black;
-}
-
-.hidden{
-    /* visibility: collapse; */
-    display: none;
-}
-
-.shown{
-    display: block;
-}
-
-* {
-    font-family:Verdana, Geneva, Tahoma, sans-serif
-
-}
-
-#vis {
-    color: steelblue;
-}
-
-.lkd-logo{
-    filter:saturate(0%)
-    grayscale(100%);
-    
-}
-
-.li{
-    margin-left: 4rem;
-}
-
-#cards{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.card0{
-    width: 157.5px;
-    height: 222.75px;
-    /* width: 100px;
-    height: 100px; */
-    /* background-color: lightgray; */
-    border: 1px black solid;
-    /* background-image: url("/assets/img/TDS.png"); */
-}
-
-.img-link{
-    padding-left: 2rem;
-    padding-right: 2rem;
+    position: relative;
+    bottom: 12vh;
 }

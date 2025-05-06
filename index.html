@@ -1,160 +1,192 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portefolio - Arthur BLOCTEUR</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
-<body id="accueil">
-    
+
+<body>
+
     <nav>
         <a href="#top">Accueil</a>
-        <a href="#bts">BTS SIO</a>
+        <a href="#ancre-bts">BTS SIO</a>
         <a href="#docs">Documentations</a>
-        <a href="#contacts">Contact</a>
-        <!-- <hr> -->
+        <a href="#contact">Contact</a>
     </nav>
 
-    <section id="intro">
+    <section id="accueil">
 
-        <h3 class="section-title">Bienvenue sur mon Site Portefolio !</h3>
-
-            <h2>A propos de moi</h2>
-
-            <p>Je m'appelle Arthur Blocteur et je suis étudiant en informatique dans le cadre d'un <a href="#bts">BTS SIO</a>. <br>
-                <br>
-                <p>Vous retrouverez dans l'onglet des <a href="#docs">documentations</a> l'ensemble des projets effectués à l'école et en entreprise lors de ma formation.</p>
-                <!-- <i> -->
-                A propos de moi, je crée des petits jeux vidéos et fait du montage photo et vidéo sur mon temps libre. Mon intérêt pour l'édition vidéo a beaucoup été influencé par Youtube mais surtout d'une option au lycée CAV (cinéma audio-visuel)
-                qui se consacrait à l'écriture et à la réalisation de court-métrages.
-            </p>
-
-            <p>J'ai également pratiqué le golf en club pendant près de 8 ans, c'est un environement très compétitif contrairement à ce que je m'étais imaginé lorsque j'ai commencé.
-                <br>Ce sport me plait beaucoup et c'est une activité dont je suis fier.</p>
-                <p>Je m'intéresse depuis peu au développement web et à la création d'application.</p>
-                
-            <h3>Mon projet profesionnel</h3>
-            <ul>
-                <li>Court terme <br> <p class="li">Obtenir mon diplome tout en approfondissant mes connaissance.</p></li>
-                <li>Moyen terme <br> <p class="li">Développer une expertise front-end et back-end.</p></li>
-                <li>Long terme <br> <p class="li">M'orienter vers l'IA en passant le Mastère Dev, Bigdata & IA à l'IPSSI.</p></li>
-            </ul>
-
-        <!-- </i> -->
-
-            <div>
-                <h3>Compétences acquises :</h3>
-                <ul>
-                    <li>Html/CSS</li>
-                    <li>Javascript</li>
-                    <li>Php</li>
-                    <li>SQL et gestion de bases avec MySQL</li>
-                    <li>Versionning avec Git</li>
-                    <li>Virtualisation Windows & Linux</li>
-                    <li id="bts">Diagrammes de classes, <a href="https://www.base-de-donnees.com/mcd/" target="_blank" class="link-bck">MCD</a> et UML</li>
-                    <li>NodeJS avec Express</li>
-                    <li>VueJS</li>
-                </ul>
-            </div>
-            <div id="PJ">
-                <div>
-                    <h2 id="titre-ecole">- Projets Ecole</h2>
-                </div>
-    
-                <div class="whoosh-2">
-                    <ul>
-                        <li>App Météo</li>
-                        <li>App TODO-List</li>
-                        <li>Site E-shop avec Php</li>
-                        <li>Jeu des capitales (drapeaux via API)</li>
-                        <li>Jeu RPG avec aléatoire et IA</li>
-                        <li>Google Library, et omdbAPI</li>
-                        <li>Géoguessr avec leafletJS</li>
-                        <li>Site Portefolio</li>
-                    </ul>
-            </div>
-
-            <p>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_icon.svg.png" alt="" width="24px">
-                <span id="check-cv">Consulter mon CV <a href="https://drive.google.com/file/d/17ZA-ZWWfaSrLzFMowAT4F9QyMNDJOlRK/view?usp=sharing" target="_blank" rel="noopener noreferrer" id="vis">visualiser</a></span>
-                ou <a href="/assets/docs/cv-blocteur-arthur.pdf" target="_blank" rel="noopener noreferrer" download="cv.pdf" >télécharger</a>
-            </p>
+        <div class="container" id="intro">
         
+            <h1 class="section-title center">Bienvenue sur mon Site Portefolio !</h1>
+
+            <h2 class="center">A propos de moi</h2>
+
+            <p>Je m'appelle Arthur Blocteur et je suis étudiant en informatique dans le cadre d'un <a href="#bts">BTS SIO</a>.</p>
+
+                <p>Vous retrouverez dans l'onglet des <a href="#docs">documentations</a> l'ensemble des projets effectués à l'école et en entreprise lors de ma formation.</p>
+                <p>A propos de moi, je crée des petits jeux vidéos et fait du montage photo et vidéo sur mon temps libre. Mon intérêt pour l'édition vidéo a beaucoup été influencé par Youtube mais surtout d'une option au lycée CAV (cinéma audio-visuel) qui se consacrait à l'écriture et à la réalisation de court-métrages.</p>
+            
+
+            <p>J'ai également pratiqué le golf en club pendant près de 8 ans, c'est un environement très compétitif contrairement à ce que je m'étais imaginé lorsque j'ai commencé. Ce sport me plait beaucoup et c'est une activité dont je suis fier.</p>
+                <p>Je m'intéresse depuis peu au développement web et à la création d'application.</p>
+
+                <p>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/PDF_file_icon.svg/1200px-PDF_file_icon.svg.png" alt="" width="24px">
+                    <span id="check-cv">Consulter mon CV <a href="https://drive.google.com/file/d/17ZA-ZWWfaSrLzFMowAT4F9QyMNDJOlRK/view?usp=sharing" target="_blank" rel="noopener noreferrer" id="vis">visualiser</a></span>
+                     ou  <a href="/assets/docs/cv-blocteur-arthur.pdf" target="_blank" rel="noopener noreferrer" download="cv.pdf" >télécharger</a>
+                </p>
+
+        </div>
+
+        
+
     </section>
 
-    <hr>
+    <p id="ancre-bts">ancre bts</p>
 
-    <section>
-        <h1 class="section-title">BTS SIO</h1>
-        <h2>Programme du BTS SIO</h2>
-        <p>Le Brevet du Technicien Supérieur des Services Informatiques aux Organisations (BTS SIO) enseigne des notions de cybersécurité, de systèmes réseaux et de developpement web. <br>
-            La formation qui se déroule sur 2 ans délivre d'abord une formation générale puis se spécialise suivant le choix d'option à partir du second semestre.</p>
-        <p>J'effectue ma formation à l'école IPSSI (Paris 12e) - <a href="https://maps.app.goo.gl/iJTxfQn65mM5qThPA" target="_blank" rel="noopener noreferrer">lien Maps</a></p>
+    <section id="bts">
 
-        <p>2 choix d'options : <br>
-            <ul>
-                <li>
-                    <h2>Solutions d’Infrastructure, Systèmes et Réseaux (SISR)</h2>
-                    <ul>
-                        <li>Gestion et maintenance des infrastructure systèmes et réseaux</li>
-                        <li>Virtualisation et Cloud Computing</li>
-                        <li>Gestion de bases de données</li>
-                    </ul>
-                </li>
-                <li>
-                    <h2>Solutions Logicielles et Applications Métiers (SLAM)</h2>
-                    <ul>
-                        <li>Concevoir et développer une solution applicative</li>
-                        <li>Assurer la maintenance corrective ou évolutive d'une solution applicative</li>
-                        <li>Gérer les données (stockage, traitement, sécurisation, traçabilité, ect...)</li>
-                    </ul>
-                </li>
+        <!-- <h1>BTS SIO</h1> -->
 
-                <br>
+        <div class="container" id="sio-div">
+            <h2>Programme du BTS SIO</h2>
+            <p>Le Brevet du Technicien Supérieur des Services Informatiques aux Organisations (BTS SIO) enseigne des notions de cybersécurité, de systèmes réseaux et de developpement web. <br>
+                La formation qui se déroule sur 2 ans délivre d'abord une formation générale puis se spécialise suivant le choix d'option à partir du second semestre.</p>
+            <p>J'effectue ma formation à l'école <a href="https://ecole-ipssi.com/">IPSSI</a> (Paris 12e) </p>
 
-                <li><u>Avec un tronc commun comprenant</u> :
-                    <ul>
-                        <li>Culture générale et expression</li>
-                        <li>Mathématiques pour l’informatique</li>
-                        <li>Culture économique, managériale et juridique pour l’informatique</li>
-                        <li>Expression en langue anglaise</li>
-                    </ul>
-                </li>
-            </ul>
-        </p>
+            <p>2 choix d'options : <br>
+                <ul>
+                        <li>
+                            <h2>Solutions d’Infrastructure, Systèmes et Réseaux (SISR)</h2>
+                            <ul>
+                                <li>Gestion et maintenance des infrastructure systèmes et réseaux</li>
+                                <li>Virtualisation et Cloud Computing</li>
+                                <li>Gestion de bases de données</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h2>Solutions Logicielles et Applications Métiers (SLAM)</h2>
+                            <ul>
+                                <li>Concevoir et développer une solution applicative</li>
+                                <li>Assurer la maintenance corrective ou évolutive d'une solution applicative</li>
+                                <li>Gérer les données (stockage, traitement, sécurisation, traçabilité, ect...)</li>
+                            </ul>
+                        </li>
 
-        <div id="competences">
+                    <br>
+
+                    <li><u>Avec un tronc commun comprenant</u> :
+                        <ul>
+                            <li>Culture générale et expression</li>
+                            <li>Mathématiques pour l’informatique</li>
+                            <li>Culture économique, managériale et juridique pour l’informatique</li>
+                            <li>Expression en langue anglaise</li>
+                        </ul>
+                    </li>
+                </ul>
+            </p>
+
             <h3>Les domaines de compétences du BTS SIO</h3>
             <img src="/assets/img/competences_bts_sio.png" alt="skills-bts" width="40%"/>
         </div>
+
     </section>
 
-    <hr id="docs">
+    <section id="docs">
+        <h1>Documentations</h1>
+        <div class="container" id="doc-cards">
 
-    <section >
-        <h1 class="section-title">Documentations</h1>
+            <a href="https://docs.google.com/spreadsheets/d/1yqIJtlYpU-nAQCDnHYfzApgjqvx8SYEa/edit?usp=sharing&ouid=107811747239239326329&rtpof=true&sd=true" target="_blank">
+                <div class="doc-card">
+                    <span class="card-title">Tableau de Synthèse</span>
+                    <img src="https://cdn-icons-png.flaticon.com/512/8/8201.png" alt="info" width="12%" class="info">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/LibreOffice_6.1_Calc_Icon.svg/640px-LibreOffice_6.1_Calc_Icon.svg.png" alt="" width="70%" height="55%" class="card-icon">
+                </div>
+            </a>
 
-            <div id="cards">
-                <a href="https://docs.google.com/spreadsheets/d/1yqIJtlYpU-nAQCDnHYfzApgjqvx8SYEa/edit?usp=sharing&ouid=107811747239239326329&rtpof=true&sd=true" target="_blank"><div class="card0 centered" title="Tableau de Synthèse"><img src="assets/img/TDS.png" alt="" height="90%" width="90%"></div></a>
-                <a href="https://drive.google.com/file/d/1nlJAPoWFR37GiYhobyiO4IjEV_ssz4l5/view?usp=sharing" target="_blank"><div class="card0 centered" title="Inventaire infrastructure"><img src="/assets/img/inventaire.png" alt="" height="60%" width="90%"></div></a>
-                <a href="https://drive.google.com/file/d/12zR8KlQB6DxzuxABq-yS-w9GMTmk2Lor/view?usp=drive_link" target="_blank"><div class="card0 centered" title="Documentation Stage SNCF"><img src="/assets/img/train.webp" alt="" height="90%" width="90%"></div></a>
-                <a href="https://drive.google.com/file/d/1wSZxJk7beZZqA8S4zNshq5exPmUGxvWE/view?usp=drive_link" target="_blank"><div class="card0 centered"  title="Mise en place GLPI"><img src="/assets/img/glpi-box.webp" alt="" height="90%" width="90%"></div></a>
-                <a href="https://docs.google.com/document/d/19P-lXnlHdRQxek25R401gwmbJhio9pSzpwS8K72TuBc/edit?usp=sharing" target="_blank"><div class="card0 centered" title="Google Alert/Feedly"><img src="/assets/img/rss.webp" alt="" height="70%" width="100%"></div></a>
-                <a href="https://docs.google.com/presentation/d/1mhtEgcwmGL8a_UppeS-vQscp0E8v1H15RcgEo3G9lFA/edit?usp=sharing" target="_blank"><div class="card0 centered" title="Veille Xander Glasses"><img src="/assets/img/glasses.webp" alt="" height="50%" width="100%"></div></a>
-                <a href="https://drive.google.com/drive/folders/1-nKbwWr8alEOsPSM63_Wdlan6EIUWaIy" target="_blank"><div class="card0 centered" title="GSB"><img src="assets/img/gsblogo.png" alt="" height="50%" width="90%"></div></a>
-            </div>
+            <a href="https://drive.google.com/file/d/1nlJAPoWFR37GiYhobyiO4IjEV_ssz4l5/view?usp=sharing" target="_blank">
+                <div class="doc-card">
+                    <span class="card-title">Inventaire infrastructure</span>
+                    <img src="https://cdn-icons-png.flaticon.com/512/8/8201.png" alt="info" width="12%" class="info">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1554/1554591.png" alt="" width="70%" height="55%" class="card-icon">
+                </div>
+            </a>
+
+            <a href="https://drive.google.com/file/d/12zR8KlQB6DxzuxABq-yS-w9GMTmk2Lor/view?usp=drive_link" target="_blank">
+                <div class="doc-card">
+                    <span class="card-title">Stage SNCF</span>
+                    <img src="https://cdn-icons-png.flaticon.com/512/8/8201.png" alt="info" width="12%" class="info">
+                    <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/e/ec/Logo_SNCF_R%C3%A9seau_2015.svg/2560px-Logo_SNCF_R%C3%A9seau_2015.svg.png" alt="" width="70%" height="45%" class="card-icon">
+                </div>
+            </a>
+
+            <a href="https://drive.google.com/file/d/18qWKJQEYcEAPrL4AEUu4ricwePpwDyL3/view?usp=sharing" target="_blank">
+                <div class="doc-card">
+                    <span class="card-title">Gestion de tickets GLPI</span>
+                    <img src="/assets/img/glpi-box.webp" alt="" width="70%" height="65%" class="card-icon">
+                    <img src="https://cdn-icons-png.flaticon.com/512/8/8201.png" alt="info" width="12%" class="info">
+    
+                </div>
+            </a>
+
+            <a href="https://docs.google.com/document/d/19P-lXnlHdRQxek25R401gwmbJhio9pSzpwS8K72TuBc/edit?usp=sharing" target="_blank">
+                <div class="doc-card">
+                    <span class="card-title">Google Alert/Feedly</span>
+                    <img src="https://cdn-icons-png.flaticon.com/512/8/8201.png" alt="info" width="12%" class="info">
+                    <img src="/assets/img/rss.webp" alt="" width="70%" height="55%" class="card-icon">
+    
+                </div>
+            </a>
+
+            <a href="https://docs.google.com/presentation/d/1mhtEgcwmGL8a_UppeS-vQscp0E8v1H15RcgEo3G9lFA/edit?usp=sharing" target="_blank">
+                <div class="doc-card">
+                    <span class="card-title">Veille Xander</span>
+                    <img src="https://cdn-icons-png.flaticon.com/512/8/8201.png" alt="info" width="12%" class="info">
+                    <img src="/assets/img/glasses.webp" alt="" width="70%" height="45%" class="card-icon">
+                </div>
+            </a>
+
+            <a href="https://drive.google.com/drive/folders/1vNG6pPvSwgB9QYVscA501gFLGTV4Sgga?usp=sharing">
+                <div class="doc-card">
+                    <span class="card-title">Comic-verse</span>
+                    <img src="https://cdn-icons-png.flaticon.com/512/8/8201.png" alt="info" width="12%" class="info">
+                    <img src="assets/img/comicverse-logo.png" alt="" width="65%" height="50%" class="card-icon">
+                </div>
+            </a>
+
+            <a href="https://drive.google.com/drive/folders/1-nKbwWr8alEOsPSM63_Wdlan6EIUWaIy" target="_blank">
+                <div class="doc-card">
+                    <span class="card-title">Drive GSB</span>
+                    <img src="https://cdn-icons-png.flaticon.com/512/8/8201.png" alt="info" width="12%" class="info">
+                    <img src="/assets/img/gsblogo.png" alt="" width="70%" height="50%" class="card-icon">
+                </div>
+            </a>
+
+            <a href="https://github.com/fluffy1211/GSB-FrontApp/wiki">
+                <div class="doc-card">
+                    <span class="card-title">Gestion de Projet GSB</span>
+                    <img src="https://cdn-icons-png.flaticon.com/512/8/8201.png" alt="info" width="12%" class="info">
+                    <img src="/assets/img/gsblogo.png" alt="" width="70%" height="50%" class="card-icon">
+                </div>
+            </a>
             
-            <br><br>
-
-        <div class="R">
-            <a class="img-link" href="https://github.com/ArthurBlct" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/1200px-GitHub_Invertocat_Logo.svg.png" alt="Github" width="64px"></a>
-            <a class="img-link" href="https://www.linkedin.com/in/arthur-blocteur-389863294" target="_blank"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png" alt="Linkedin" class="lkd-logo" width="64px"></a>
-            <a class="img-link" href="mailto:a.blocteur@ecole-ipssi.net" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/6244/6244710.png" alt="Linkedin" width="64px"></a>
         </div>
-        
     </section>
+
+
+    <div>
+        <h2 class="center" id="contact">Contact</h2>
+    </div>
+    <div class="R">
+        <a class="img-link" href="https://github.com/ArthurBlct" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/1200px-GitHub_Invertocat_Logo.svg.png" alt="Github" width="96px"></a>
+        <a class="img-link" href="https://www.linkedin.com/in/arthur-blocteur-389863294" target="_blank"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/circle-linkedin-512.png" alt="Linkedin" class="lkd-logo" width="96px"></a>
+        <a class="img-link" href="mailto:a.blocteur@ecole-ipssi.net" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/6244/6244710.png" alt="Linkedin" width="96px"></a>
+    </div>
+
 
 </body>
 </html>
